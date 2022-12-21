@@ -739,7 +739,7 @@ input[type=text] {
   }
   
   .close {
-    color: rgb(236, 15, 15);
+    color: rgb(230, 225, 225);
     float: right;
     font-size:40px;
     font-weight: 800;
@@ -748,13 +748,14 @@ input[type=text] {
   .close:hover,
   .close:focus {
     color: #000;
+    text-shadow: 2px 2px 4px #646060;
     text-decoration: none;
     cursor: pointer;
   }
   
   .modal-header {
     padding: 2px 16px;
-    background-color: #30c430;
+    background-color: var(--contBKColor);
     color: white;
     height: 50px;
     text-align: center;
@@ -784,42 +785,16 @@ input[type=text] {
     to {opacity: 1}
   }
 
-
-
-
-
-
-
-
-
+/****** Modal Content ******/
   .group:after {
     content: "";
     display: table;
     clear: both;
   }
   
-/*   html, body {
-    width: 100%;
-    height: 100%;
-  }
-  
-  body {
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 100%;
-    line-height: 1.5;
-    color: #787878;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  @media (max-width: 600px) {
-    body {
-      font-size: 70%;
-    }
-  } */
-  
- .wrap-3d a {
+ .wrap-3d .item-3d a {
     text-decoration: none;
-    color: #08c;
+    color: rgb(240, 243, 240);
   }
   
   strong {
@@ -835,7 +810,7 @@ input[type=text] {
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    background-color: #f0f0f0;
+    background-color: #a9afa9;
     transform-style: preserve-3d;
     perspective: 150rem;
     perspective-origin: 50% 110%;
