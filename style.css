@@ -2008,7 +2008,7 @@ figure.snip1390 .profile {
 	width: 65px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	/* background-color:  #33383b; */
 	border-radius: 18px;
 
 	font-size: 20px;
